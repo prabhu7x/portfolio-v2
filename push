@@ -1,0 +1,7 @@
+#!/bin/bash
+
+git add .
+git add dist -f
+git commit -m "initial commit "
+git push origin main
+git subtree push --prefix dist origin gh-pages 
